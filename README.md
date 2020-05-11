@@ -85,6 +85,6 @@ means that the resource is a folder:
 * <b> etl.py </b> - This script executes the queries that extract JSON data
 from the S3 bucket and ingest them to Redshift
 * <b> sql_queries.py </b> - This file contains variables with SQL statement in String formats,  partitioned by CREATE, DROP, COPY and INSERT statements
-* <b> dhw.cfg </b> - Configuration file used that contains info about Redshift, IAM and S3
+* <b> dwh.cfg </b> - Configuration file used that contains info about Redshift, IAM and S3
 
 --------------------------------------------
